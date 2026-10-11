@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biblioteca Digital UniFECAF - Projeto Acadêmico de Design Web">
+    <title>UniFECAF | Biblioteca Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. NAVEGACAO SUPERIOR -->
+    <header class="cabecalho">
+        <nav class="nav-conteudo" aria-label="Navegação principal">
+            <a href="#biblioteca" class="nav-logo">UniFECAF | Biblioteca Digital</a>
+            <ul class="nav-links">
+                <li><a href="#biblioteca">Biblioteca</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#livros">Livros</a></li>
+                <li><a href="#unidades">Unidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 2. BANNER PRINCIPAL COM TRANSPARENCIA -->
+        <section class="banner" id="biblioteca">
+            <img src="assets/imagens/hero.jpg" alt="Estudantes em biblioteca com estantes de livros">
+            <div class="banner-texto">
+                <h1>Biblioteca Digital UniFECAF</h1>
+                <p>Acesso ao acervo acadêmico para consulta, pesquisa e apoio aos estudos.</p>
+            </div>
+        </section>
+
+        <!-- 3. SOBRE A NOSSA BIBLIOTECA -->
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <h2>Sobre a nossa biblioteca</h2>
+
+                <div class="sobre-conteudo">
+                    <div class="sobre-texto">
+                        <p>A Biblioteca Digital UniFECAF foi desenvolvida para apoiar a formação acadêmica, reunindo títulos e referências para diferentes cursos.</p>
+                        <p>O acervo permite pesquisas rápidas e oferece suporte pedagógico contínuo aos estudantes.</p>
+                    </div>
+
+                    <div class="sobre-imagem">
+                        <img src="assets/imagens/sobre.jpg" alt="Espaço interno da biblioteca com mesas de estudo">
+                    </div>
+
+                    <div class="sobre-texto">
+                        <p>Os ambientes proporcionam infraestrutura adequada para leituras individuais e produção de trabalhos acadêmicos.</p>
+                        <p>A biblioteca integra recursos digitais e espaços físicos para fortalecer o aprendizado.</p>
+                    </div>
+                </div>
+
+                <!-- Quatro blocos informativos inferiores -->
+                <div class="sobre-blocos">
+                    <div class="sobre-bloco">
+                        <h3>Acervo Digital</h3>
+                        <p>Consulta de livros e periódicos em formato digital.</p>
+                    </div>
+                    <div class="sobre-bloco">
+                        <h3>Salas de Estudo</h3>
+                        <p>Espaços dedicados para leitura e concentração.</p>
+                    </div>
+                    <div class="sobre-bloco">
+                        <h3>Apoio à Pesquisa</h3>
+                        <p>Orientações para elaboração de trabalhos acadêmicos.</p>
+                    </div>
+                    <div class="sobre-bloco">
+                        <h3>Empréstimo</h3>
+                        <p>Retirada de obras físicas disponíveis nas unidades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. AREA DE DESTAQUE COM TRANSPARENCIA -->
+        <section class="destaque">
+            <img src="assets/imagens/destaque.jpg" alt="Livro aberto em ambiente de leitura">
+            <div class="destaque-texto">
+                <h2>Espaço de Leitura e Conhecimento</h2>
+                <p>Consulte títulos acadêmicos atualizados para complementar as atividades da graduação.</p>
+            </div>
+        </section>
+
+        <!-- 5. NOSSOS LIVROS -->
+        <section class="livros" id="livros">
+            <div class="container">
+                <h2>Nossos Livros</h2>
+
+                <!-- Grade com exatamente 6 cards de livros com capas reais -->
+                <div class="livros-grade">
+
+                    <!-- Livro 1 -->
+                    <article class="card-livro">
+                        <img src="assets/imagens/livro-1.jpg" alt="Capa do livro Fundamentos de Redes e Sistemas" class="card-capa-img">
+                        <div class="card-corpo">
+                            <span class="card-categoria">Tecnologia</span>
+                            <h3 class="card-titulo">Fundamentos de Redes e Sistemas</h3>
+                            <p class="card-descricao">Introdução às redes de computadores, arquitetura cliente-servidor e segurança da informação.</p>
+                            <a href="#contato" class="btn-card">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <!-- Livro 2 -->
+                    <article class="card-livro">
+                        <img src="assets/imagens/livro-2.jpg" alt="Capa do livro Gestão de Projetos e Liderança" class="card-capa-img">
+                        <div class="card-corpo">
+                            <span class="card-categoria">Administração</span>
+                            <h3 class="card-titulo">Gestão de Projetos e Liderança</h3>
+                            <p class="card-descricao">Princípios de administração estratégica, trabalho em equipe e métodos ágeis de gestão.</p>
+                            <a href="#contato" class="btn-card">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <!-- Livro 3 -->
+                    <article class="card-livro">
+                        <img src="assets/imagens/livro-3.jpg" alt="Capa do livro Introdução ao Cálculo Estrutural" class="card-capa-img">
+                        <div class="card-corpo">
+                            <span class="card-categoria">Engenharia</span>
+                            <h3 class="card-titulo">Introdução ao Cálculo Estrutural</h3>
+                            <p class="card-descricao">Conceitos fundamentais de resistência de materiais e estruturas na engenharia moderna.</p>
+                            <a href="#contato" class="btn-card">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <!-- Livro 4 -->
+                    <article class="card-livro">
+                        <img src="assets/imagens/livro-4.jpg" alt="Capa do livro Metodologias Ativas de Ensino" class="card-capa-img">
+                        <div class="card-corpo">
+                            <span class="card-categoria">Pedagogia</span>
+                            <h3 class="card-titulo">Metodologias Ativas de Ensino</h3>
+                            <p class="card-descricao">Abordagens pedagógicas participativas voltadas para o desenvolvimento de competências.</p>
+                            <a href="#contato" class="btn-card">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <!-- Livro 5 -->
+                    <article class="card-livro">
+                        <img src="assets/imagens/livro-5.jpg" alt="Capa do livro Anatomia e Fisiologia Humana" class="card-capa-img">
+                        <div class="card-corpo">
+                            <span class="card-categoria">Saúde</span>
+                            <h3 class="card-titulo">Anatomia e Fisiologia Humana</h3>
+                            <p class="card-descricao">Estudo descritivo dos sistemas do corpo humano para cursos da área da saúde.</p>
+                            <a href="#contato" class="btn-card">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <!-- Livro 6 -->
+                    <article class="card-livro">
+                        <img src="assets/imagens/livro-6.jpg" alt="Capa do livro Comunicação e Redação Científica" class="card-capa-img">
+                        <div class="card-corpo">
+                            <span class="card-categoria">Comunicação</span>
+                            <h3 class="card-titulo">Comunicação e Redação Científica</h3>
+                            <p class="card-descricao">Diretrizes para escrita técnica, organização de artigos e apresentações acadêmicas.</p>
+                            <a href="#contato" class="btn-card">Saiba mais</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. AS UNIDADES -->
+        <section class="unidades" id="unidades">
+            <div class="container">
+                <h2>As Unidades</h2>
+
+                <!-- Bloco Unidade 1 -->
+                <div class="unidade-bloco">
+                    <div class="unidade-imagem">
+                        <img src="assets/imagens/unidade-centro.jpg" alt="Unidade Centro da UniFECAF">
+                    </div>
+                    <div class="unidade-texto">
+                        <h3>Unidade Centro</h3>
+                        <p>Espaço central com acervo de livros físicos, computadores com acesso à internet para pesquisa e salas para estudos individuais e em grupo.</p>
+                        <p>Atendimento aos cursos de graduação e pós-graduação da instituição.</p>
+                    </div>
+                </div>
+
+                <!-- Bloco Unidade 2 -->
+                <div class="unidade-bloco">
+                    <div class="unidade-imagem">
+                        <img src="assets/imagens/unidade-norte.jpg" alt="Unidade Norte da UniFECAF">
+                    </div>
+                    <div class="unidade-texto">
+                        <h3>Unidade Norte</h3>
+                        <p>Ambiente estruturado com terminais de consulta digital, acervo técnico direcionado e áreas de estudo silencioso para os discentes.</p>
+                        <p>Suporte presencial para empréstimos e renovações de títulos acadêmicos.</p>
+                    </div>
+                </div>
+
+                <!-- Bloco Unidade 3 -->
+                <div class="unidade-bloco">
+                    <div class="unidade-imagem">
+                        <img src="assets/imagens/unidade-sul.jpg" alt="Unidade Sul da UniFECAF">
+                    </div>
+                    <div class="unidade-texto">
+                        <h3>Unidade Sul</h3>
+                        <p>Instalações amplas integradas às áreas de convivência, com títulos didáticos variados e salas destinadas a oficinas e reuniões de pesquisa.</p>
+                        <p>Atendimento contínuo voltado às necessidades da comunidade acadêmica.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 7. CONTATOS -->
+        <section class="contatos" id="contato">
+            <div class="container">
+                <h2>Contatos</h2>
+
+                <div class="contatos-conteudo">
+                    <div class="contatos-texto">
+                        <h3>Atendimento da Biblioteca</h3>
+                        <p>Para dúvidas sobre pesquisa de títulos, empréstimo de livros e utilização dos espaços de estudo, procure a equipe de atendimento.</p>
+                        <p>O suporte aos estudantes é realizado tanto no balcão de atendimento das unidades quanto pelos canais institucionais da faculdade.</p>
+                        <p class="aviso-academico">* Projeto desenvolvido para a disciplina de Design Web. Informações com finalidade didática.</p>
+                    </div>
+
+                    <div class="contatos-imagem">
+                        <img src="assets/imagens/sobre.jpg" alt="Balcão de atendimento da biblioteca">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 8. RODAPE -->
+    <footer class="rodape">
+        <p>&copy; 2026 UniFECAF | Biblioteca Digital — Projeto Acadêmico de Design Web</p>
+    </footer>
+
+</body>
+</html>
